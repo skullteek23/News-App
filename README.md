@@ -1,4 +1,4 @@
-# ViAct News App
+# News App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 Developer plan from newapi.org doesnt support production build hosting.
