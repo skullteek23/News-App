@@ -1,0 +1,13 @@
+<!-- search input field -->
+<mat-form-field appearance="outline" color="primary">
+  <mat-label>Search Articles</mat-label>
+  <input type="text" name="search" matInput #Filter />
+  <mat-icon matSuffix>search</mat-icon>
+</mat-form-field>
+<!-- search input field -->
+
+<!-- error message displayed when search value is not found -->
+<span class="error" *ngIf="notFoundError$ | async">
+  No matching results! Try again
+</span>
+<!-- error message displayed when search value is not found -->

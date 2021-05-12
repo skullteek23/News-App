@@ -1,0 +1,60 @@
+.table-holder {
+  overflow-x: auto;
+  width: 100%;
+}
+img {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.paginater {
+  margin: 20px 0;
+}
+.mat-column-publishedAt {
+  min-width: 100px;
+}
+.mat-column-Author {
+  min-width: 140px;
+  padding-left: 20px;
+}
+.mat-column-Source {
+  min-width: 75px;
+  padding-left: 8px;
+}
+.mat-column-Image {
+  width: 50px;
+}
+.mat-column-Title {
+  width: auto;
+}
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type {
+  padding: 0px !important;
+}
+@media only screen and (max-width: 359px) {
+  .table {
+    max-width: 800px;
+  }
+  .mat-column-Image {
+    width: 70px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+}
